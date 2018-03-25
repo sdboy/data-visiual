@@ -1,4 +1,4 @@
-"use strict";
+ "use strict";
 
 require.config({
   baseUrl : "./js",
@@ -7,16 +7,11 @@ require.config({
     async : "lib/require/async",
     domReady : "lib/require/domReady",
     text : "lib/require/text",
-    jquery : "lib/jquery/jquery-1.11.3",
-    Map3D : "lib/coorun/Map3D",
-    CooMap : "lib/coorun/Class",
-    Util : "lib/coorun/Util",
+    jquery : "lib/jquery/jquery-3.3.1",
     zTree : "lib/ztree/jquery.ztree.all",
     underscore : "lib/underscore/underscore",
     jqueryUI : "lib/jquery_ui/jquery-ui",
-    createIframe : "app/iframe/createIframe",
-    removeIframe : "app/iframe/removeIframe",
-    adaption : "app/iframe/adaption"
+    backone : "lib/"
   },
   shim: {
     'Map3D': {
